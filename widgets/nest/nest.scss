@@ -1,0 +1,35 @@
+.widget-nest {	
+	background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%);
+	transition: background-color 2s linear;
+	-moz-transition: background-color 2s linear;
+	-o-transition: background-color 2s linear;
+  	-webkit-transition: background-color 2s linear;
+
+  	h1{
+  		vertical-align: middle;
+  		font-size: 80px;
+  		font-family: Helvetica;
+  	}
+
+  	h3{  		  		  		
+  		margin-top: -5px;
+  	}
+}
+
+.nest-state-cooling { 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1b96ff), color-stop(40%,#0c7bfb), color-stop(100%,#0259f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1b96ff 0%,#0c7bfb 40%,#0259f0 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom,  #1b96ff 0%,#0c7bfb 40%,#0259f0 100%); /* W3C */
+ }
+
+.nest-state-heating { 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7c0a), color-stop(40%,#f94c00), color-stop(100%,#f32800)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ff7c0a 0%,#f94c00 40%,#f32800 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  #ff7c0a 0%,#f94c00 40%,#f32800 100%); /* W3C */
+ }
+
+.nest-state-off { 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b4248), color-stop(40%,#2a2f34), color-stop(100%,#222529)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3b4248 0%,#2a2f34 40%,#222529 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%); /* W3C */
+}
