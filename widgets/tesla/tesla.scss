@@ -1,0 +1,17 @@
+.widget-tesla {  
+  background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%);
+  transition: background-color 2s linear;
+  -moz-transition: background-color 2s linear;
+  -o-transition: background-color 2s linear;
+    -webkit-transition: background-color 2s linear;
+
+    h1{
+      vertical-align: middle;
+      font-size: 80px;
+      font-family: Helvetica;
+    }
+
+    h3{
+      margin-top: -5px;
+    }
+}

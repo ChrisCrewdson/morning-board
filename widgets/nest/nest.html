@@ -1,3 +1,10 @@
-<img src="assets/nest_logo.png"/>
-<h1 data-bind="temp"></h1>
+<img src="assets/nest/nest_logo.png"/>
+<h1 data-bind="temp"/>
+<h5 data-bind="current_temp"/>
+<h5>
+  <span data-bind="humidity | append '&#37;' | raw"></span>
+</h5>
+<h5>
+  <span data-bind="k_temp | append 'K'"></span>
+</h5>
 <img data-bind-src="leaf" data-bind-width="width"/>

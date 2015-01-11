@@ -1,0 +1,24 @@
+<div data-bind-class="right_now">
+  <h4 class="title">Now</h4>
+  <h2 class="temp" data-bind="current.temperature | append '&deg;' | raw"></h2>
+
+  <div class="summary-wrapper clearfix">
+    <img class="weather-icon-left" data-bind-src="current_icon" />
+    <p class="summary summary-right" data-bind="current.summary | raw"></p>
+  </div>
+</div>
+
+<div data-bind-class="today_bg">
+  <h4 class="title">Today</h4>
+
+  <div class="summary-wrapper clearfix">
+    <img class="weather-icon-left" data-bind-src="day_icon" />
+    <p class="summary summary-right">
+      <span>L&thinsp;: </span>
+      <span data-bind="today.low | append '&deg;' | raw"></span>
+      <span>&nbsp;</span>
+      <span>H&thinsp;: </span>
+      <span data-bind="today.high | append '&deg;' | raw"></span>
+    </p>
+  </div>
+</div>
