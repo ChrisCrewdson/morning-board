@@ -19,6 +19,8 @@ $warm: #ff9d37; // 20 to 24
 $hot: #ff5131; // 25 and above 
 
 .widget-verbinski {
+  padding: 0px 0px !important;
+
   .cold5 { background-color: $cold5; } 
   .cold4 { background-color: $cold4; }
   .cold3 { background-color: $cold3; }
