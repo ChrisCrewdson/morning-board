@@ -1,2 +1,3 @@
 <img src="assets/tesla/tesla_logo.svg"/>
-<h1 data-bind="battery_percentage | append '%'"/>
+<progress max="100" data-bind-value="battery_percentage"/>
+<h4 data-bind="battery_percentage | append '%'"/>
