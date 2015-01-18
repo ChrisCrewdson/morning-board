@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dashing start
+/usr/local/bin/dashing start

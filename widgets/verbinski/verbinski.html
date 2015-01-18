@@ -1,4 +1,4 @@
-<div data-bind-class="right_now">
+<div data-bind-class="right_now" class="bg">
   <h4 class="title">Now</h4>
   <h2 class="temp" data-bind="current.temperature | append '&deg;' | raw"></h2>
 
@@ -8,7 +8,7 @@
   </div>
 </div>
 
-<div data-bind-class="today_bg">
+<div data-bind-class="today_bg" class="bg">
   <h4 class="title">Today</h4>
 
   <div class="summary-wrapper clearfix">
@@ -22,3 +22,4 @@
     </p>
   </div>
 </div>
+<div class="updated-at" data-bind="updatedAtMessage"/>

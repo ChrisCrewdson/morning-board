@@ -2,3 +2,5 @@
 history.yml
 Gemfile.lock
 config.ru
+PID
+runboard
