@@ -4,3 +4,5 @@ Gemfile.lock
 config.ru
 PID
 runboard
+*.pid
+log
