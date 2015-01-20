@@ -1,4 +1,6 @@
 <img src="assets/tesla/tesla_logo.svg"/>
 <progress max="100" data-bind-value="battery_percentage"/>
 <h4 data-bind="battery_percentage | append '%'"/>
+<h4 data-bind="battery_range_miles | append ' miles range'"/>
+<h4 data-bind="hours_to_full_charge | append ' hours to full'"/>
 <div class="updated-at" data-bind="updatedAtMessage"/>

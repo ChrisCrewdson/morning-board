@@ -1,6 +1,6 @@
 <img src="assets/nest/nest_logo.png"/>
-<h1 data-bind="temp"/>
-<h5 data-bind="current_temp"/>
+<h1 data-bind="current_temp | append '&deg;' | raw"/>
+<h5 data-bind="set_temp | prepend 'Set @ ' | append '&deg;' | raw"/>
 <h5>
   <span data-bind="humidity | append '&#37;' | raw"></span>
 </h5>
