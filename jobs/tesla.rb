@@ -11,6 +11,7 @@ SCHEDULER.every '1m', :first_in => 0 do |job|
   send_event('tesla', {
     battery_percentage: charge_state.battery_percentage,
     battery_range_miles: charge_state.battery_range_miles.round(0),
-    hours_to_full_charge: charge_state.hours_to_full_charge
+    hours_to_full_charge: charge_state.hours_to_full_charge,
+    state: charge_state.charging_state == "Charging" ? "charging" : "idle"
   })
 end

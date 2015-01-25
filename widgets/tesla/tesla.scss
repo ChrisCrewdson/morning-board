@@ -1,5 +1,4 @@
 .widget-tesla {  
-  background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%);
   transition: background-color 2s linear;
   -moz-transition: background-color 2s linear;
   -o-transition: background-color 2s linear;
@@ -18,4 +17,16 @@
     progress{
       background-color: #eee;
     }
+}
+
+.tesla-state-charging { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#218521), color-stop(40%,#175D17), color-stop(100%,#0C2E0C)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #218521 0%,#175D17 40%,#0C2E0C 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  #218521 0%,#175D17 40%,#0C2E0C 100%); /* W3C */
+ }
+
+.tesla-state-idle { 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b4248), color-stop(40%,#2a2f34), color-stop(100%,#222529)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #3b4248 0%,#2a2f34 40%,#222529 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%); /* W3C */
 }
