@@ -1,5 +1,5 @@
 // text colour
-$full-colour:  rgba(255, 255, 255, 1);
+$full-colour: rgba(255, 255, 255, 1);
 $light-colour: rgba(255, 255, 255, 0.7);
 $dark-colour: rgba(0, 0, 0, 0.3);
 
@@ -18,8 +18,8 @@ $cool1: #B9CC5A; // 15 to 19
 $warm: #ff9d37; // 20 to 24
 $hot: #ff5131; // 25 and above 
 
-.widget-verbinski {
-  padding: 0px 0px !important;
+div.widget-verbinski {
+  padding: 0px 0px;
 
   .cold5 { background-color: $cold5; }
   .cold4 { background-color: $cold4; }
