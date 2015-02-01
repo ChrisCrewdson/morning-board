@@ -7,6 +7,7 @@ gem 'nest_thermostat'
 gem 'nokogiri'
 gem 'omniauth'
 gem 'tesla-api'
+gem 'uptimerobot'
 
 require 'rubygems'
 #require 'sonos'

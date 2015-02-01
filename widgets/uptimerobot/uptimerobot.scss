@@ -1,0 +1,17 @@
+$S1-color: rgba(255, 128, 128, 0.7);
+$S2-color: rgba(255, 255, 255, 0.7);
+$S3-color: rgba(255, 255, 255, 0.7);
+
+.widget-uptimerobot {
+  background: #0083ca;
+
+  .S1 {
+    color: $S1-color;
+  }
+  .S2 {
+    color: $S2-color;
+  }
+  .S3 {
+    color: $S3-color;
+  }
+}
