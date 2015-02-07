@@ -17,11 +17,12 @@
   progress{
     background-color: #eee;
   }
-  .tesla-state-charging { 
-    background: linear-gradient(to bottom,  #218521 0%,#175D17 40%,#0C2E0C 100%);
-   }
+}
 
-  .tesla-state-idle { 
-    background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%);
-  }
+.tesla-state-charging { 
+  background: linear-gradient(to bottom,  #218521 0%,#175D17 40%,#0C2E0C 100%);
+ }
+
+.tesla-state-idle { 
+  background: linear-gradient(to bottom,  #3b4248 0%,#2a2f34 40%,#222529 100%);
 }

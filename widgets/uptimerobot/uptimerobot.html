@@ -1,7 +1,7 @@
 <h1>Server status</h1>
 
-<p data-bind="friendlyname0" data-bind-class="status0"></p>
-<p data-bind="friendlyname1" data-bind-class="status1"></p>
-<p data-bind="friendlyname2" data-bind-class="status2"></p>
-<p data-bind="friendlyname3" data-bind-class="status3"></p>
-
+<ul>
+  <li class="monitor" data-foreach-monitor="monitors" data-bind-class="monitor.status">
+    <span data-bind="monitor.friendlyname"></span>
+  </li>
+</ul>
