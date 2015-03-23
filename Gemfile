@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'thin'
 gem 'dashing'
 gem 'google_tasks'
 gem 'httparty'
@@ -10,4 +11,3 @@ gem 'tesla-api'
 gem 'uptimerobot'
 
 require 'rubygems'
-#require 'sonos'
