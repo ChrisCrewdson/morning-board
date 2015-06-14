@@ -9,7 +9,7 @@ console.log("Yeah! The dashboard has started!")
 
 Dashing.on 'ready', ->
   Dashing.widget_margins ||= [5, 5]
-  Dashing.widget_base_dimensions ||= [300, 360]
+  Dashing.widget_base_dimensions ||= [270, 330]
   Dashing.numColumns ||= 4
 
   contentWidth = (Dashing.widget_base_dimensions[0] + Dashing.widget_margins[0] * 2) * Dashing.numColumns
@@ -23,12 +23,13 @@ Dashing.on 'ready', ->
       draggable:
         stop: Dashing.showGridsterInstructions
         start: -> Dashing.currentWidgetPositions = Dashing.getWidgetPositions()
+        items: "none"
 
   Dashing.Widget::accessor 'updatedAtMessage', ->
     if updatedAt = @get('updatedAt')
       timestamp = new Date(updatedAt * 1000)
       year = timestamp.getFullYear()
-      month = ("0" + timestamp.getMonth() + 1).slice(-2)
+      month = ("0" + (timestamp.getMonth() + 1)).slice(-2)
       day = ("0" + timestamp.getDate()).slice(-2)
       hours = timestamp.getHours()
       minutes = ("0" + timestamp.getMinutes()).slice(-2)

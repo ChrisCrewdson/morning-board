@@ -7,7 +7,7 @@ gem 'httparty'
 gem 'nest_thermostat'
 gem 'nokogiri'
 gem 'omniauth'
-gem 'tesla-api'
+gem 'tesla_api'
 gem 'uptimerobot'
 
 require 'rubygems'

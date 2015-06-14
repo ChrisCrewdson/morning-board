@@ -36,7 +36,9 @@ div.widget-verbinski {
     text-transform: uppercase;
   }
 
-  .temp { color: $full-colour; }
+  .temp { 
+    color: $full-colour;
+  }
 
   .summary { 
     color: $full-colour; 

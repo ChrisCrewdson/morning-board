@@ -1,7 +1,6 @@
 <div data-bind-class="right_now" class="bg">
   <h4 class="title">Now</h4>
-  <h2 class="temp" data-bind="current.temperature | append '&deg;' | raw"></h2>
-
+  <h3 class="temp" data-bind="current.temperature | append '&deg;' | raw"></h3>
   <div class="summary-wrapper clearfix">
     <img class="weather-icon-left" data-bind-src="current_icon" />
     <p class="summary summary-right" data-bind="current.summary | raw"></p>
